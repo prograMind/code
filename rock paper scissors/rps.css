@@ -1,0 +1,18 @@
+input[type=image] {
+    width: 15%;
+    height: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:hover {
+    background-color: rgb(18, 238, 11);
+}
+
+button {
+    background-color: seagreen;
+    padding: 15px;
+    font-weight: bold;
+    color: seashell;
+}

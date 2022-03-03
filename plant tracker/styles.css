@@ -1,0 +1,15 @@
+body {
+    background-image: url("concrete wall.jpeg");
+}
+
+#top-menu {
+    display: flex;
+}
+
+#top-menu > p {
+    flex: 1;
+}
+
+#content-view {
+    align-content: center;
+}

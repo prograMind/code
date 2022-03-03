@@ -1,0 +1,52 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    border: 2px solid red;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px auto;
+}
+
+.lball {
+    background-color: indianred;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+.rball {
+    background-color: indianred;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+.pener {
+    box-sizing: content-box;
+    background-color: lightcoral;
+    height: 100px;
+    width: 200px;
+    transition: width 1000ms;
+    margin-left: 40px;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+}
+
+.pener:hover {
+    cursor: pointer;
+    width: 500px;
+}
